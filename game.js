@@ -75,7 +75,7 @@ function nextSequence() {
   // once nextSequence is triggered, reset the userClickedPattern to an empty array ready for the next level
   userClickedPattern = [];
   level++;
-  $("#level-title").text("Level" +level);
+  $("#level-title").text("Level " +level);
 
   var randomNumber = Math.floor(Math.random() * 4);
   var randomChosenColor = buttonColors[randomNumber];
