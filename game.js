@@ -1,3 +1,8 @@
+alert("記憶遊戲:每階段顏色會疊加，依照顏色選出正確順序");
+alert("舉例:Level 1 紅色亮 玩家選取紅色，Level 2 藍色亮 玩家選取紅色、藍色");
+alert("顏色依序疊加，挑戰您的記憶力!");
+
+
 var buttonColors = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
